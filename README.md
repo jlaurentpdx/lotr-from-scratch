@@ -57,3 +57,56 @@ Your characters page should include the ability to filter the API by race. The p
 ### Stretch Goals (Up to 2 additional points)
 
 - Allow users to search for characters by name - make sure to only call the API when the user clicks a button, not on every letter typed
+
+#
+
+-
+-
+-
+-
+-
+
+#
+
+# Walkthrough
+
+1. Be sure to work on a branch! `git checkout -b dev`
+1. `npm i`
+1. `npm install react-router-dom@5`
+1. Remove `.example` from `.env.development.local.example`
+1. Add REACT_APP keys to `.env.development.local`
+   - Remember to add these to **GitHub** Secrets and **Netlify** Environment Variables
+1. Make new files:
+   - `src/services/books.js`
+   - `components/...`
+     - `BookList.js`
+     - `CharacterList.js`
+     - `FilmList.js`
+   - `view/...`
+     - `Books/Books.js`
+     * `Books/Books.css`
+     - `Characters/Characters.js`
+     * `Characters/Characters.css`
+     - `Films/Films.js`
+     * `Films/Films.css`
+   * We can also clear all `.keep` files once this is complete
+1. In `App.js`:
+   - Import BrowserRouter, NavLink, Switch, and Route from `react-router-dom`
+   - Import all existing Views
+   - Initialize layout for page
+1. In `views/`:
+
+   - Each component in this folder will import `useEffect` and `useState` from React
+   - Get info from the API using our fetch calls from `src/services/componentName.js`
+   - Return the following :
+
+   ```jsx
+   return (
+     <div>
+       <NamedComponent />
+     </div>
+   );
+   ```
+
+1. In `components/`
+   - Transform passed-in data (_props_) using `props.map()`
