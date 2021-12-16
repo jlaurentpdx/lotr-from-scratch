@@ -70,33 +70,40 @@ Your characters page should include the ability to filter the API by race. The p
 
 # Walkthrough
 
+## Getting Started
+
 1. Be sure to work on a branch! `git checkout -b dev`
 1. `npm i`
 1. `npm install react-router-dom@5`
 1. Remove `.example` from `.env.development.local.example`
 1. Add REACT_APP keys to `.env.development.local`
    - Remember to add these to **GitHub** Secrets and **Netlify** Environment Variables
-1. Make new files:
+1. _Optionally_, make new files:
+
    - `src/services/books.js`
    - `components/...`
      - `BookList.js`
      - `CharacterList.js`
      - `FilmList.js`
    - `view/...`
-     - `Books/Books.js`
-     * `Books/Books.css`
-     - `Characters/Characters.js`
-     * `Characters/Characters.css`
-     - `Films/Films.js`
-     * `Films/Films.css`
-   * We can also clear all `.keep` files once this is complete
+     - `Books/Books.js` + `Books.css`
+     - `Characters/Characters.js` + `Characters.css`
+     - `Films/Films.js` + `Films.css`
+   - We can also clear all `.keep` files once this is complete
+
+## Write Your Code
+
 1. In `App.js`:
+
    - Import BrowserRouter, NavLink, Switch, and Route from `react-router-dom`
-   - Import all existing Views
+   - Import all existing components in `./views`
    - Initialize layout for page
+
 1. In `views/`:
 
+   - _Note that these are our webpages_, or what the user will **view**
    - Each component in this folder will import `useEffect` and `useState` from React
+   -
    - Get info from the API using our fetch calls from `src/services/componentName.js`
    - Return the following :
 
@@ -110,3 +117,4 @@ Your characters page should include the ability to filter the API by race. The p
 
 1. In `components/`
    - Transform passed-in data (_props_) using `props.map()`
+   -
