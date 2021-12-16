@@ -101,11 +101,10 @@ Your characters page should include the ability to filter the API by race. The p
 
 1. In `views/`:
 
-   - _Note that these are our webpages_, or what the user will **view**
+   - _Note that these are our webpages_, or what the user will **view** in response to changes in **state**
    - Each component in this folder will import `useEffect` and `useState` from React
-   -
    - Get info from the API using our fetch calls from `src/services/componentName.js`
-   - Return the following :
+   - Return the following:
 
    ```jsx
    return (

@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <header>
+          <h1>The Lord of the Rings</h1>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/books">Books</NavLink>
           <NavLink to="/films">Films</NavLink>
