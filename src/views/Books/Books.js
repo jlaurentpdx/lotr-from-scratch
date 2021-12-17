@@ -14,7 +14,10 @@ export default function Books() {
     fetchData();
   }, []);
 
-  // console.log(books);
-
-  return <div>Books page</div>;
+  return (
+    <div className="books-page">
+      <h2>Books</h2>
+      <BookList books={books} />
+    </div>
+  );
 }
