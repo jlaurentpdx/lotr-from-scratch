@@ -17,9 +17,7 @@ export default function Films() {
   return (
     <div className="films-page">
       <h2>Films</h2>
-      {films.map((film) => (
-        <FilmList key={film.id} {...film} />
-      ))}
+      <FilmList films={films} />
     </div>
   );
 }

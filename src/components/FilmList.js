@@ -1,9 +1,13 @@
-export default function FilmList({ title, box_office_total, academy_award_nominations }) {
+export default function FilmList({ films }) {
   return (
-    <div>
-      <h3>{title}</h3>
-      <p>Box Office Total: ${box_office_total}M</p>
-      <p>Academy Award Nominations: {academy_award_nominations}</p>
+    <div className="film-list">
+      {films.map((film) => (
+        <div key={film.id}>
+          <h3>{film.title}</h3>
+          <p>Box Office Total: ${film.box_office_total}M</p>
+          <p>Academy Award Nominations: {film.academy_award_nominations}</p>
+        </div>
+      ))}
     </div>
   );
 }

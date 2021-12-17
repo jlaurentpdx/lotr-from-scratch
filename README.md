@@ -84,6 +84,7 @@ Your characters page should include the ability to filter the API by race. The p
    - `components/...`
      - `BookList.js`
      - `CharacterList.js`
+     - `Controls.js`
      - `FilmList.js`
    - `view/...`
      - `Books/Books.js` + `Books.css`
@@ -102,18 +103,24 @@ Your characters page should include the ability to filter the API by race. The p
 1. In `views/`:
 
    - _Note that these are our webpages_, or what the user will **view** in response to changes in **state**
-   - Each component in this folder will import `useEffect` and `useState` from React
-   - Get info from the API using our fetch calls from `src/services/componentName.js`
-   - Return the following:
+   - Each component in this folder will import `useEffect` and `useState` from React, our matching named component from `'../../components/____List'`, and a **fetch call** from `'../../services/____'`
+   - Create state for our component and setComponent
+   - Get info from the API using `useEffect` and our fetch call
+   - Return the matching component from `components/...List`
 
-   ```jsx
-   return (
-     <div>
-       <NamedComponent />
+1. ## In `components/`
+
+   - Passing in data from the View component above, render the list of films, books, or characters (noting the special needs for characters below) inside a `<div>`. An example from Films might be:
+
+   ```html
+   <!-- NOTE: This is JSX, not HTML -->
+   <div className="film-list">
+     {films.map((film) => (
+     <div key="{film.id}">
+       <h3>{film.title}</h3>
+       <p>Box Office Total: ${film.box_office_total}M</p>
+       <p>Academy Award Nominations: {film.academy_award_nominations}</p>
      </div>
-   );
+     ))}
+   </div>
    ```
-
-1. In `components/`
-   - Transform passed-in data (_props_) using `props.map()`
-   -

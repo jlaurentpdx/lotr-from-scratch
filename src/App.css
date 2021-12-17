@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-style: italic;
+}
+
+footer {
+  position: absolute;
+  background-color: white;
+  padding: 2%;
+  bottom: 0;
+  right: 0;
+}
