@@ -1,3 +1,9 @@
+.active {
+  text-decoration: none;
+  font-style: normal;
+  color: black;
+}
+
 body {
   text-align: center;
 }
@@ -9,10 +15,17 @@ header {
   font-style: italic;
 }
 
+h1 {
+  background: darkslategray;
+  color: white;
+  padding: 10px;
+}
+
 footer {
-  position: absolute;
-  background-color: white;
-  padding: 2%;
+  position: sticky;
+  color: white;
+  background-color: darkslategray;
+  padding: 1%;
   bottom: 0;
   right: 0;
 }

@@ -11,7 +11,9 @@ function App() {
       <BrowserRouter>
         <h1>The Lord of the Rings Database</h1>
         <header>
-          <NavLink to="/">Home</NavLink>
+          <NavLink exact to="/">
+            Home
+          </NavLink>
           <NavLink to="/books">Books</NavLink>
           <NavLink to="/films">Films</NavLink>
           <NavLink to="/characters">Characters</NavLink>
