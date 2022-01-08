@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { fetchCharacters } from '../../services/characters';
+import Controls from '../../components/Controls';
 import './Characters.css';
 
 export default function Characters() {
@@ -18,21 +19,7 @@ export default function Characters() {
   return (
     <div>
       <h2>Characters</h2>
-      <input
-        value={query}
-        type="text"
-        placeholder="search"
-        onChange={(e) => setQuery(e.target.value)}
-      />
-      <select value={race} onChange={(e) => setRace(e.target.value)}>
-        <option value="All">All</option>
-        <option value="Dwarf">Dwarf</option>
-        <option value="Elf">Elf</option>
-        <option value="Hobbit">Hobbit</option>
-        <option value="Human">Human</option>
-        <option value="Maiar">Maiar</option>
-        <option value="Orc">Orc</option>
-      </select>
+      <Controls race={race} query={query} setRace={setRace} setQuery={setQuery} />
       {characters.map((character) => (
         <h3 key={character.id}>{character.name}</h3>
       ))}
