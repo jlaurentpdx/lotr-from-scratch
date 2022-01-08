@@ -1,0 +1,17 @@
+.controls {
+  padding-bottom: 2vh;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.character-card {
+  background: lightgray;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  width: 20vw;
+}

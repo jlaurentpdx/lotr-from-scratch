@@ -1,0 +1,504 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters should render character cards 1`] = `
+<div>
+  <div>
+    <h2>
+      Characters
+    </h2>
+    <div
+      class="controls"
+    >
+      <h3>
+        Search by...
+      </h3>
+      <label>
+        Name: 
+      </label>
+      <input
+        placeholder="search"
+        type="text"
+        value=""
+      />
+      <label>
+        Race: 
+      </label>
+      <select>
+        <option
+          value="All"
+        >
+          All
+        </option>
+        <option
+          value="Dwarf"
+        >
+          Dwarf
+        </option>
+        <option
+          value="Elf"
+        >
+          Elf
+        </option>
+        <option
+          value="Hobbit"
+        >
+          Hobbit
+        </option>
+        <option
+          value="Human"
+        >
+          Human
+        </option>
+        <option
+          value="Maiar"
+        >
+          Maiar
+        </option>
+        <option
+          value="Orc"
+        >
+          Orc
+        </option>
+      </select>
+    </div>
+    <div
+      class="character-list"
+    >
+      <div
+        class="character-card"
+      >
+        <h3>
+          Gandalf
+        </h3>
+        <p>
+          Born: 
+          Before the Shaping of Arda
+        </p>
+        <p>
+          Died: 
+          01/25/3019
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Frodo Baggins
+        </h3>
+        <p>
+          Born: 
+          09/22/TA 2968
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Samwise Gamgee
+        </h3>
+        <p>
+          Born: 
+          04/06/TA 2980
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Aragorn II Elessar
+        </h3>
+        <p>
+          Born: 
+          03/01/TA 2931
+        </p>
+        <p>
+          Died: 
+          FO 120
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Legolas
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+        <p>
+          Died: 
+          FO 120
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Peregrin Took
+        </h3>
+        <p>
+          Born: 
+          Spring TA 2990/SR 1390
+        </p>
+        <p>
+          Died: 
+          After FO 63/SR 1484
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Gimli
+        </h3>
+        <p>
+          Born: 
+          TA 2879
+        </p>
+        <p>
+          Died: 
+          Departed to Aman in FO 120 from Ithilien
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Sauron
+        </h3>
+        <p>
+          Born: 
+          Before the Ainulindalë
+        </p>
+        <p>
+          Died: 
+          March 25, TA 3019
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Meriadoc Brandybuck
+        </h3>
+        <p>
+          Born: 
+          TA 2982/SR 1382
+        </p>
+        <p>
+          Died: 
+          FO 63/SR 1484
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Boromir
+        </h3>
+        <p>
+          Born: 
+          TA 2978
+        </p>
+        <p>
+          Died: 
+          02/26/3019
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Galadriel
+        </h3>
+        <p>
+          Born: 
+          YT 1362
+        </p>
+        <p>
+          Died: 
+          29/29 TA 3021
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Elrond
+        </h3>
+        <p>
+          Born: 
+          FA 532
+        </p>
+        <p>
+          Died: 
+          Departed to Aman on September 29, 3021
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Bilbo Baggins
+        </h3>
+        <p>
+          Born: 
+          09/22/TA 2890
+        </p>
+        <p>
+          Died: 
+          09/29/TA 3021
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Saruman
+        </h3>
+        <p>
+          Born: 
+          Before the creation of Arda
+        </p>
+        <p>
+          Died: 
+          November 3, TA 3019
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Rosie Cotton
+        </h3>
+        <p>
+          Born: 
+          TA 2984
+        </p>
+        <p>
+          Died: 
+          FO 61
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Gollum
+        </h3>
+        <p>
+          Born: 
+          TA 2430
+        </p>
+        <p>
+          Died: 
+          3/25 TA 3019
+
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Balin
+        </h3>
+        <p>
+          Born: 
+          TA 2763
+        </p>
+        <p>
+          Died: 
+          TA 2994
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Islidur
+        </h3>
+        <p>
+          Born: 
+          SA 3209
+        </p>
+        <p>
+          Died: 
+          TA 2
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Bifur
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Bofur
+        </h3>
+        <p>
+          Born: 
+          Late Third Age
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Celeborn
+        </h3>
+        <p>
+          Born: 
+          Uncertain; possibly Years of the Trees
+        </p>
+        <p>
+          Died: 
+          Sailed to Valinor in the early Fourth Age
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Arwen
+        </h3>
+        <p>
+          Born: 
+          TA 241
+        </p>
+        <p>
+          Died: 
+          FO 121
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Faramir
+        </h3>
+        <p>
+          Born: 
+          TA 2983
+        </p>
+        <p>
+          Died: 
+          February 26, FO 82
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Haldir of Lorien
+
+        </h3>
+        <p>
+          Born: 
+          Unkown
+
+        </p>
+        <p>
+          Died: 
+          Unkown
+
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Treebeard
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Azog
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+        <p>
+          Died: 
+          TA 2799
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Grishnákh
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+        <p>
+          Died: 
+          February 29, 3019
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Bolg
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+        <p>
+          Died: 
+          TA 2941
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Ufthak
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+        <p>
+          Died: 
+          TA 3019
+        </p>
+      </div>
+      <div
+        class="character-card"
+      >
+        <h3>
+          Snaga
+        </h3>
+        <p>
+          Born: 
+          Unknown
+        </p>
+        <p>
+          Died: 
+          02/29/3019
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

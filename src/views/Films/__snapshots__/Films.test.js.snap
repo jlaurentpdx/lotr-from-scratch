@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Films should render a list of films with box office total and nominations 1`] = `
+<div>
+  <div
+    class="films-page"
+  >
+    <h2>
+      Films
+    </h2>
+    <div
+      class="film-list"
+    >
+      <div>
+        <h3>
+          The Two Towers
+        </h3>
+        <p>
+          Box Office Total: $
+          948
+          M
+        </p>
+        <p>
+          Nominated for 
+          23
+           Academy Awards
+        </p>
+      </div>
+      <div>
+        <h3>
+          The Return of the King
+        </h3>
+        <p>
+          Box Office Total: $
+          1146
+          M
+        </p>
+        <p>
+          Nominated for 
+          11
+           Academy Awards
+        </p>
+      </div>
+      <div>
+        <h3>
+          The Fellowship of the Ring
+        </h3>
+        <p>
+          Box Office Total: $
+          898
+          M
+        </p>
+        <p>
+          Nominated for 
+          13
+           Academy Awards
+        </p>
+      </div>
+      <div>
+        <h3>
+          The Desolation of Smaug
+        </h3>
+        <p>
+          Box Office Total: $
+          959
+          M
+        </p>
+        <p>
+          Nominated for 
+          3
+           Academy Awards
+        </p>
+      </div>
+      <div>
+        <h3>
+          The Battle of the Five Armies
+        </h3>
+        <p>
+          Box Office Total: $
+          962
+          M
+        </p>
+        <p>
+          Nominated for 
+          1
+           Academy Awards
+        </p>
+      </div>
+      <div>
+        <h3>
+          The Unexpected Journey
+        </h3>
+        <p>
+          Box Office Total: $
+          1000
+          M
+        </p>
+        <p>
+          Nominated for 
+          3
+           Academy Awards
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

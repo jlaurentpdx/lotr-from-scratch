@@ -57,3 +57,70 @@ Your characters page should include the ability to filter the API by race. The p
 ### Stretch Goals (Up to 2 additional points)
 
 - Allow users to search for characters by name - make sure to only call the API when the user clicks a button, not on every letter typed
+
+#
+
+-
+-
+-
+-
+-
+
+#
+
+# Walkthrough
+
+## Getting Started
+
+1. Be sure to work on a branch! `git checkout -b dev`
+1. `npm i`
+1. `npm install react-router-dom@5`
+1. Remove `.example` from `.env.development.local.example`
+1. Add REACT_APP keys to `.env.development.local`
+   - Remember to add these to **GitHub** Secrets and **Netlify** Environment Variables
+1. _Optionally_, make new files:
+
+   - `src/services/books.js`
+   - `components/...`
+     - `BookList.js`
+     - `CharacterList.js`
+     - `Controls.js`
+     - `FilmList.js`
+   - `view/...`
+     - `Books/Books.js` + `Books.css`
+     - `Characters/Characters.js` + `Characters.css`
+     - `Films/Films.js` + `Films.css`
+   - We can also clear all `.keep` files once this is complete
+
+## Write Your Code
+
+1. In `App.js`:
+
+   - Import BrowserRouter, NavLink, Switch, and Route from `react-router-dom`
+   - Import all existing components in `./views`
+   - Initialize layout for page
+
+1. In `views/`:
+
+   - _Note that these are our webpages_, or what the user will **view** in response to changes in **state**
+   - Each component in this folder will import `useEffect` and `useState` from React, our matching named component from `'../../components/____List'`, and a **fetch call** from `'../../services/____'`
+   - Create state for our component and setComponent
+   - Get info from the API using `useEffect` and our fetch call
+   - Return the matching component from `components/...List`
+
+1. ## In `components/`
+
+   - Passing in data from the View component above, render the list of films, books, or characters (noting the special needs for characters below) inside a `<div>`. An example from Films might be:
+
+   ```html
+   <!-- NOTE: This is JSX, not HTML -->
+   <div className="film-list">
+     {films.map((film) => (
+     <div key="{film.id}">
+       <h3>{film.title}</h3>
+       <p>Box Office Total: ${film.box_office_total}M</p>
+       <p>Academy Award Nominations: {film.academy_award_nominations}</p>
+     </div>
+     ))}
+   </div>
+   ```
