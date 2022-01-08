@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books should render three titles 1`] = `
+<div>
+  <div
+    class="books-page"
+  >
+    <h2>
+      Books
+    </h2>
+    <div
+      class="book-list"
+    >
+      <h3>
+        The Fellowship of the Ring
+      </h3>
+      <h3>
+        The Two Towers
+      </h3>
+      <h3>
+        The Return of the King
+      </h3>
+    </div>
+  </div>
+</div>
+`;
